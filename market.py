@@ -1,6 +1,4 @@
 import sqlite3
-import time
-
 
 def get_products_on_racks(orders):
 
@@ -161,12 +159,3 @@ def get_products_on_racks(orders):
 orders_input = input("Введите номера заказов через запятую: ").split(",")
 
 get_products_on_racks(orders_input)
-
-start_time = time.time()
-
-# Ваш код
-
-end_time = time.time()
-
-execution_time = end_time - start_time
-print("Время выполнения программы:", execution_time, "секунд")
